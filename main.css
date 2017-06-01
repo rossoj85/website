@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.header{
+  background-color: #333333;
+  height: 50px;
+  color: white;
+  font-family: Jura;
+  margin-left: 0;
+  margin-right:0;
+  max-width: 100%;
+  margin-top: 0px;
+}
+
+
+}
+.header.container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+  height: 90px;
+  max-width: 100%
+}
+
+.title{
+	float:left;
+	color: white;
+	display: inline-block;
+  margin-left: -15px
+}
+.logo{
+	height:50px;
+	width:50px;
+	float:left;
+  margin-right: 3px	
+}
+
+.nav{
+	float: right;
+	border: white;
+  display: inline-block;
+  width:300px;
+}
+.nav >li{
+  
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+  list-style-type: none;
+  margin-top: ;
+}
+.nav >li:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.jumbotron {
+  height: 500px;
+  background: url(florian-giorgio-141622.jpg);
+  background-position:center;
+  background-size: cover;
+  background-attachment: ;
+  margin-bottom: 0; 
+}
+
+.border{
+  background-color: #333333;
+  height: 50px;
+  color: white;
+  font-family: Jura;
+  margin-bottom: 20px;
+}
+.row{
+  margin: 0 auto;
+  text-align: center;
+}
+.col-md-4{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
